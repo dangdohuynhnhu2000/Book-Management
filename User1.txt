@@ -1,0 +1,42 @@
+Ngon den khong tat
+ndkt
+Nguyen Ngoc Tu
+Tre
+21000
+0
+2
+Gay nguoi thi lanh
+gntl
+Nguyen Ngoc Tu
+Tre
+38500
+0
+1
+Khong ai qua song
+kaqs
+Nguyen Ngoc Tu
+Tre
+55729
+0
+1
+Ngoi khoc tren cay
+nktc
+Nguyen Nhat Anh
+Tre
+39799
+0
+1
+Pham cach quoc gia
+pcqg
+Fujiwara Masahiko
+Phu nu
+56999
+0
+1
+Toi thay hoa vang tren co xanh
+tthvtcx
+Nguyen Nhat Anh
+Tre
+44999
+0
+1
