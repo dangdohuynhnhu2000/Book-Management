@@ -219,6 +219,7 @@ void User::thanhToan()
 	inGioHang();
 	cout << endl;
 	cout << "*** Tong tien thanh toan: " << gioHang.getTongTien() << endl;
+	inHoaDonLenFileChung();
 }
 
 void User::capNhatGioHang(DanhSach ds)
@@ -557,6 +558,19 @@ void User::inGioHangLenFile()
 	string nameFile;
 	nameFile = "User" + to_string(getSttUser(ID, pass)) + ".txt";
 	file.open(nameFile);
+	if (!file)
+	{
+		cout << "Error to open file!" << endl;
+		return;
+	}
+	gioHang.ghiLenFile(file);
+	file.close();
+}
+
+void User::inHoaDonLenFileChung()
+{
+	ofstream file;
+	file.open("HoaDon.txt", ios::app);
 	if (!file)
 	{
 		cout << "Error to open file!" << endl;

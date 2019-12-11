@@ -34,6 +34,7 @@ public:
 	void chinhSuaSoLuong();
 	void xoaSach();
 	void inGioHang();
+	void inHoaDonLenFileChung();
 	void thanhToan();
 	void runUserGuestMode(DanhSach& ds, Sach a);
 	void capNhatGioHang(DanhSach ds);
